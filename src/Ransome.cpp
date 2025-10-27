@@ -33,7 +33,6 @@ bool canCreateNote(const string& note, const vector<string>& articles) {
 }
 
 int main() {
-    cout << boolalpha;
     cout << canCreateNote("a", {"a"}) << "\n";                                                // true
     cout << canCreateNote("a", {"ab"}) << "\n";                                               // true
     cout << canCreateNote("a", {"a", "b"}) << "\n";                                           // true
